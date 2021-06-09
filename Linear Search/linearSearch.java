@@ -37,7 +37,9 @@ class lsearch{
 
         if (y){
             System.out.println("Not present");
-        }  
+        }
+        
+        sc.close();
     }
 }
 
