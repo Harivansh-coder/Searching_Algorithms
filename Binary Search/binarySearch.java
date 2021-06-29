@@ -18,7 +18,7 @@ public class binarySearch {
         boolean y = true;
         while (y){
             if (l < h){
-                mid = (l + h)/2;
+                mid = l + (h - l)/2;
                 if (arr[mid] == val){
                     System.out.print(val+" is at index "+mid);
                     y = false;
