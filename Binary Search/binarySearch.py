@@ -11,7 +11,7 @@ def binary_search(arr ,s):
 
     while y: 
         if low < up:
-            mid = (low + up)//2
+            mid = low + (up - low)//2
             if arr[mid] == s:
                 print("{} is at index {}".format(s,mid)) 
                 y = False
