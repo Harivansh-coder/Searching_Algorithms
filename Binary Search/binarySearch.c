@@ -26,7 +26,7 @@ void main()
 int binarySearch(int arr[],int l, int r,int val){
 	
 	if (r >= l){
-		int mid = l+(r-1)/2;
+		int mid = l+(r-l)/2;
 
 		if (arr[mid] == val){
 			return mid;
