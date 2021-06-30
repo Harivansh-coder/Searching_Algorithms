@@ -1,4 +1,8 @@
 /*
+Following java code returns the first or last (index) occurrence of 
+the user entered element depending upone flag parameter.
+If flag is 0 it returns the index of first occurrence of the element 
+and else it returns last occurrence. 
 
 */
 
